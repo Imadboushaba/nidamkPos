@@ -1,0 +1,1603 @@
+<!DOCTYPE html>
+
+<html dir="ltr" lang="en-US" data-qb-installed="true"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Metas -->
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="LionCoders inc">
+    <meta name="csrf-token" content="CmSeExxpkZmScDB9ArBZKMGKAyzPqnxEriplXWrS">
+    <link rel="icon" type="image/png" href="landlord/images/logo/20230825084446.png">
+    <!-- Document Title -->
+    <title>NidamkPOS SAAS inventory, POS, accounting &amp; HRM</title>
+    <!-- Links -->
+    <meta name="description" content="NidamkPOS SAAS lets your customers subscribe to NidamkPOS inventory, POS, accounting &amp; HRM solution">
+    <meta property="og:url" content="https://pos.nidamk.com">
+    <meta property="og:title" content="NidamkPOS SAAS inventory, POS, accounting &amp; HRM">
+    <meta property="og:description" content="NidamkPOS SAAS lets your customers subscribe to NidamkPOS inventory, POS, accounting &amp; HRM solution">
+    
+
+    <!-- Bootstrap CSS -->
+    <link href="./index_files/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome CSS-->
+    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css" as="style" >
+    <noscript><link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet"></noscript>
+
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" as="style"  href="landlord/css/plugins.css">
+    <noscript>
+        <link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="landlord/css/plugins.css">
+    </noscript>
+
+    <!-- common style CSS -->
+    <link id="switch-style" href="./index_files/common-style-light.css" rel="stylesheet">
+
+    <!-- google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+    <link href="./index_files/css2" rel="stylesheet">
+
+        <!-- Meta Pixel Snippet Start -->
+
+<!-- Meta Pixel Snippet End -->
+    
+<style type="text/css">.lf-progress {
+  -webkit-appearance: none;
+  -moz-apperance: none;
+  width: 100%;
+  /* margin: 0 10px; */
+  height: 4px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.lf-progress:focus {
+  outline: none;
+  border: none;
+}
+.lf-progress::-moz-range-track {
+  cursor: pointer;
+  background: none;
+  border: none;
+  outline: none;
+}
+.lf-progress::-webkit-slider-thumb {
+  -webkit-appearance: none !important;
+  height: 13px;
+  width: 13px;
+  border: 0;
+  border-radius: 50%;
+  background: #0fccce;
+  cursor: pointer;
+}
+.lf-progress::-moz-range-thumb {
+  -moz-appearance: none !important;
+  height: 13px;
+  width: 13px;
+  border: 0;
+  border-radius: 50%;
+  background: #0fccce;
+  cursor: pointer;
+}
+.lf-progress::-ms-track {
+  width: 100%;
+  height: 3px;
+  cursor: pointer;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+.lf-progress::-ms-fill-lower {
+  background: #ccc;
+  border-radius: 3px;
+}
+.lf-progress::-ms-fill-upper {
+  background: #ccc;
+  border-radius: 3px;
+}
+.lf-progress::-ms-thumb {
+  border: 0;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background: #0fccce;
+  cursor: pointer;
+}
+.lf-progress:focus::-ms-fill-lower {
+  background: #ccc;
+}
+.lf-progress:focus::-ms-fill-upper {
+  background: #ccc;
+}
+.lf-player-container :focus {
+  outline: 0;
+}
+.lf-popover {
+  position: relative;
+}
+
+.lf-popover-content {
+  display: inline-block;
+  position: absolute;
+  opacity: 1;
+  visibility: visible;
+  transform: translate(0, -10px);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  transition: all 0.3s cubic-bezier(0.75, -0.02, 0.2, 0.97);
+}
+
+.lf-popover-content.hidden {
+  opacity: 0;
+  visibility: hidden;
+  transform: translate(0, 0px);
+}
+
+.lf-player-btn-container {
+  display: flex;
+  align-items: center;
+}
+.lf-player-btn {
+  cursor: pointer;
+  fill: #999;
+  width: 14px;
+}
+
+.lf-player-btn.active {
+  fill: #555;
+}
+
+.lf-popover {
+  position: relative;
+}
+
+.lf-popover-content {
+  display: inline-block;
+  position: absolute;
+  background-color: #ffffff;
+  opacity: 1;
+
+  transform: translate(0, -10px);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  transition: all 0.3s cubic-bezier(0.75, -0.02, 0.2, 0.97);
+  padding: 10px;
+}
+
+.lf-popover-content.hidden {
+  opacity: 0;
+  visibility: hidden;
+  transform: translate(0, 0px);
+}
+
+.lf-arrow {
+  position: absolute;
+  z-index: -1;
+  content: '';
+  bottom: -9px;
+  border-style: solid;
+  border-width: 10px 10px 0px 10px;
+}
+
+.lf-left-align,
+.lf-left-align .lfarrow {
+  left: 0;
+  right: unset;
+}
+
+.lf-right-align,
+.lf-right-align .lf-arrow {
+  right: 0;
+  left: unset;
+}
+
+.lf-text-input {
+  border: 1px #ccc solid;
+  border-radius: 5px;
+  padding: 3px;
+  width: 60px;
+  margin: 0;
+}
+
+.lf-color-picker {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 90px;
+}
+
+.lf-color-selectors {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.lf-color-component {
+  display: flex;
+  flex-direction: row;
+  font-size: 12px;
+  align-items: center;
+  justify-content: center;
+}
+
+.lf-color-component strong {
+  width: 40px;
+}
+
+.lf-color-component input[type='range'] {
+  margin: 0 0 0 10px;
+}
+
+.lf-color-component input[type='number'] {
+  width: 50px;
+  margin: 0 0 0 10px;
+}
+
+.lf-color-preview {
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 5px;
+}
+
+.lf-preview {
+  height: 60px;
+  width: 60px;
+}
+
+.lf-popover-snapshot {
+  width: 150px;
+}
+.lf-popover-snapshot h5 {
+  margin: 5px 0 10px 0;
+  font-size: 0.75rem;
+}
+.lf-popover-snapshot a {
+  display: block;
+  text-decoration: none;
+}
+.lf-popover-snapshot a:before {
+  content: '⥼';
+  margin-right: 5px;
+}
+.lf-popover-snapshot .lf-note {
+  display: block;
+  margin-top: 10px;
+  color: #999;
+}
+.lf-player-controls > div {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.lf-player-controls > div:first-child {
+  margin-left: 0px;
+}
+.lf-player-controls > div:last-child {
+  margin-right: 0px;
+}
+</style><style type="text/css">.index-module_type__E-SaG::after {
+  content: '|';
+  animation: index-module_cursor__PQg0P 1.1s infinite step-start;
+}
+
+@keyframes index-module_cursor__PQg0P {
+  50% {
+    opacity: 0;
+  }
+}
+</style></head>
+
+<body class="home">
+        <!--Header-->
+    <!--Header Area starts-->
+        <div class="notice">
+        <a target="_blank" href="https://lion-coders.com/software/NidamkPOS-saas">Buy NidamkPOS SAAS with full source code</a>
+    </div>
+    
+    
+    <header id="header-middle" class="header-middle">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-7">
+                    <div class="mobile-menu-icon d-lg-none"><i class="ti-menu"></i></div>
+                    <div class="logo">
+                        <a href="https://pos.nidamk.com/">
+                            <img class="lazy" src="landlord/images/logo/20230825084446.png" alt="Brand logo">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6 d-none d-lg-flex d-xl-flex middle-column justify-content-center">
+                    <div id="main-menu" class="main-menu">
+                        <ul class="pl-0">
+                            <li><a href="https://pos.nidamk.com/#features">Features</a></li>
+
+                            <li><a href="https://pos.nidamk.com/#faq">FAQ</a></li>
+
+                            <li><a href="https://pos.nidamk.com/#packages">Pricing</a></li>
+
+                            <li><a href="https://pos.nidamk.com/blog">Blog</a></li>
+
+                            <li><a href="https://pos.nidamk.com/#contact">Contact</a></li>
+
+
+                            <li class="d-lg-none dropdown">
+                                <a class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                Language
+                                </a>
+                                <div class="dropdown-menu">
+                                                                    <a class="dropdown-item" href="https://pos.nidamk.com/switch-landing-page-language/1">English</a>
+                                                                </div>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-5" style="text-align:right">
+                    <ul class="offset-menu-wrapper p-0 d-none d-lg-flex d-xl-flex">
+                        <li class="has-dropdown">
+                            <i class="fa fa-globe" aria-hidden="true"></i> English
+                            <div class="dropdown">
+                                                                <a href="https://pos.nidamk.com/switch-landing-page-language/1">English</a>
+                                                            </div>
+                        </li>
+
+                        <li>
+                            <a class="button style2" href="https://pos.nidamk.com/#packages">Try Now</a>
+                        </li>
+                    </ul>
+                    <a class="button style2 d-lg-none" href="https://pos.nidamk.com/#packages">Try Now</a>
+                </div>
+            </div>
+        </div>
+        <nav id="mobile-nav">
+            <div class="mobile-menu-close-icon d-lg-none" styel="line-height:50px"><i class="ti-close"></i></div>
+            <div class="container"></div>
+        </nav>
+    </header>
+
+    <section class="hero mt-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 offset-md-2 text-center hero-text mb-5">
+                    <h1 class="heading">NidamkPOS is an all-in-one inventory management &amp; POS software.</h1>
+                    <h2 class="sub-heading light h5 mb-5">Take care of all your products, sales, purchases, stores related tasks from an easy-to-use platform, from anywhere you want, anytime you want</h2>
+                    <a href="https://pos.nidamk.com/#packages" class="button lg style2">Try for free</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="hero-img">
+        <img src="./index_files/hero-image.jpg" alt="">
+    </section>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 offset-md-3 text-center mb-5">
+                    <h2 class="heading">Testimonials</h2>
+                </div>
+            </div>
+            <div class="swiper mySwiper swiper-container-horizontal swiper-container-autoheight" style="border-bottom:1px solid #ddd">
+                <div class="swiper-wrapper" style="height: 427px; transform: translate3d(-1226px, 0px, 0px); transition-duration: 0ms;"><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" style="width: 358.667px; margin-right: 50px;" data-swiper-slide-index="0">
+                        <div class="review">
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <div class="review-text">
+                                Can be set up very well and efficiently. Best POS software. I like it. We hope this will help us to succeed in our future endeavors. No bugs found so far. Support is best.
+                            </div>
+                            <div class="reviewer"><img src="./index_files/20230310060319.jpg" alt="Joe Saint"> Joe Saint</div>
+                        </div>
+                    </div><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next" style="width: 358.667px; margin-right: 50px;" data-swiper-slide-index="1">
+                        <div class="review">
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <div class="review-text">
+                                Great Customer Support Ever! The support guy was really helpful!
+                            </div>
+                            <div class="reviewer"><img src="./index_files/20230310060318.jpg" alt="Mark Williamson"> Mark Williamson</div>
+                        </div>
+                    </div><div class="swiper-slide swiper-slide-duplicate swiper-slide-prev" style="width: 358.667px; margin-right: 50px;" data-swiper-slide-index="2">
+                        <div class="review">
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <div class="review-text">
+                                This is perfect product for your shop
+                            </div>
+                            <div class="reviewer"><img src="./index_files/20230313031955.jpg" alt="Brenda Ballion"> Brenda Ballion, BDS</div>
+                        </div>
+                    </div>
+                                    <div class="swiper-slide swiper-slide-active" style="width: 358.667px; margin-right: 50px;" data-swiper-slide-index="0">
+                        <div class="review">
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <div class="review-text">
+                                Can be set up very well and efficiently. Best POS software. I like it. We hope this will help us to succeed in our future endeavors. No bugs found so far. Support is best.
+                            </div>
+                            <div class="reviewer"><img src="./index_files/20230310060319.jpg" alt="Joe Saint"> Joe Saint</div>
+                        </div>
+                    </div>
+                                    <div class="swiper-slide swiper-slide-next" style="width: 358.667px; margin-right: 50px;" data-swiper-slide-index="1">
+                        <div class="review">
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <div class="review-text">
+                                Great Customer Support Ever! The support guy was really helpful!
+                            </div>
+                            <div class="reviewer"><img src="./index_files/20230310060318.jpg" alt="Mark Williamson"> Mark Williamson</div>
+                        </div>
+                    </div>
+                                    <div class="swiper-slide swiper-slide-duplicate-prev" style="width: 358.667px; margin-right: 50px;" data-swiper-slide-index="2">
+                        <div class="review">
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <div class="review-text">
+                                This is perfect product for your shop
+                            </div>
+                            <div class="reviewer"><img src="./index_files/20230313031955.jpg" alt="Brenda Ballion"> Brenda Ballion, BDS</div>
+                        </div>
+                    </div>
+                                <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" style="width: 358.667px; margin-right: 50px;" data-swiper-slide-index="0">
+                        <div class="review">
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <div class="review-text">
+                                Can be set up very well and efficiently. Best POS software. I like it. We hope this will help us to succeed in our future endeavors. No bugs found so far. Support is best.
+                            </div>
+                            <div class="reviewer"><img src="./index_files/20230310060319.jpg" alt="Joe Saint"> Joe Saint</div>
+                        </div>
+                    </div><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next" style="width: 358.667px; margin-right: 50px;" data-swiper-slide-index="1">
+                        <div class="review">
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <div class="review-text">
+                                Great Customer Support Ever! The support guy was really helpful!
+                            </div>
+                            <div class="reviewer"><img src="./index_files/20230310060318.jpg" alt="Mark Williamson"> Mark Williamson</div>
+                        </div>
+                    </div><div class="swiper-slide swiper-slide-duplicate" style="width: 358.667px; margin-right: 50px;" data-swiper-slide-index="2">
+                        <div class="review">
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <div class="review-text">
+                                This is perfect product for your shop
+                            </div>
+                            <div class="reviewer"><img src="./index_files/20230313031955.jpg" alt="Brenda Ballion"> Brenda Ballion, BDS</div>
+                        </div>
+                    </div></div>
+                <div class="swiper-nav-next" tabindex="0" role="button" aria-label="Next slide" aria-disabled="false"><i class="ti-arrow-right"></i></div>
+                <div class="swiper-nav-prev swiper-button-disabled" tabindex="0" role="button" aria-label="Previous slide" aria-disabled="true"><i class="ti-arrow-left"></i></div>
+                <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+            <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+        </div>
+    </section>
+
+        <section id="features" class="">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 offset-md-3 text-center mb-5">
+                                            <h2 class="heading">One App, all the features</h2>
+                        NidamkPOS is packed with all the features you'll need to seamlessly run your business
+                                    </div>
+                                <div class="col-md-4">
+                    <div class="feature">
+                        <div class="icon m-auto mb-3">
+                            <i class="fa fa-book"></i>
+                        </div>
+                        <h3>Purchase</h3>
+                        <p>Create purchase order and automatically update your daily stocks.</p>
+                    </div>
+                </div>
+                                <div class="col-md-4">
+                    <div class="feature">
+                        <div class="icon m-auto mb-3">
+                            <i class="fa fa-cubes"></i>
+                        </div>
+                        <h3>Stock &amp; Inventory</h3>
+                        <p>Manage standard/combo/digital/service products with variants, IMEI, batches and expiry dates.</p>
+                    </div>
+                </div>
+                                <div class="col-md-4">
+                    <div class="feature">
+                        <div class="icon m-auto mb-3">
+                            <i class="fa fa-briefcase"></i>
+                        </div>
+                        <h3>Sales &amp; POS</h3>
+                        <p>Manage your daily sales from beautifully designed POS page with lots of exclusive features.</p>
+                    </div>
+                </div>
+                                <div class="col-md-4">
+                    <div class="feature">
+                        <div class="icon m-auto mb-3">
+                            <i class="fa fa-credit-card-alt"></i>
+                        </div>
+                        <h3>Accounts &amp; HRM</h3>
+                        <p>Manage accounts, account statement, balance sheet, employees, payroll, attendance, holidays and lots more.</p>
+                    </div>
+                </div>
+                            </div>
+        </div>
+    </section>
+    
+        <section class="grey-bg">
+        <div class="container">
+            <div class="row">
+                                <div class="col-md-3 feature2">
+                    <div class="icon">
+                        <i class="fa fa-bolt"></i>
+                    </div>
+                    <h4 class="h6">Variants, IMEI/Serial Number, batch &amp; expiry dates</h4>
+                </div>
+                                <div class="col-md-3 feature2">
+                    <div class="icon">
+                        <i class="fa fa-ticket"></i>
+                    </div>
+                    <h4 class="h6">Currency conversion</h4>
+                </div>
+                                <div class="col-md-3 feature2">
+                    <div class="icon">
+                        <i class="fa fa-comment"></i>
+                    </div>
+                    <h4 class="h6">TAX/VAT, Indian GST management</h4>
+                </div>
+                            </div>
+        </div>
+    </section>
+    
+        <section id="faq" class="accordion pb-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 offset-md-3 text-center mb-5">
+                                            <h2 class="heading">Frequently Asked Questions</h2>
+                        <p class="lead">Have questions? we have answered common ones below.</p>
+                                    </div>
+                <div class="col-md-6 offset-md-3 mb-5">
+                                        <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading0">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse0" aria-expanded="false" aria-controls="collapse0">
+                            Is it an addon or standalone solution?
+                        </button>
+                        </h2>
+                        <div id="collapse0" class="accordion-collapse collapse" aria-labelledby="heading0" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                It is a standalone solution so you don't have to purchase anything else.
+                            </div>
+                        </div>
+                    </div>
+                                        <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading1">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+                            What is NidamkPOS SAAS?
+                        </button>
+                        </h2>
+                        <div id="collapse1" class="accordion-collapse collapse" aria-labelledby="heading1" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                NidamkPOS SAAS is a PHP Laravel Script featuring Point of Sale (POS) with inventory management system, accounting and HRM solution.
+                            </div>
+                        </div>
+                    </div>
+                                        <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading2">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                            Are you selling subscriptions or selling the script?
+                        </button>
+                        </h2>
+                        <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                We are not selling subscription, but we are selling our script to various b2b and solo entrepreneurs. So, our customers can make money selling subscriptions
+                            </div>
+                        </div>
+                    </div>
+                                        <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading3">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                            Is your saas multi-tenant or single-tenant
+                        </button>
+                        </h2>
+                        <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Our SaaS is multi-tenant, multi-database system. So, all your users will have their separate databases, sub-domains, custom domain - making it faster compared to other systems
+                            </div>
+                        </div>
+                    </div>
+                                        <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading4">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                            Do I have to renew it every year or just one time fee.
+                        </button>
+                        </h2>
+                        <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                No, you don’t need to renew it every year. Whatever you pay for buying, that’s it. You have a lifetime SAAS POS in your hand with the support of a team of highly skilled programmers.
+                            </div>
+                        </div>
+                    </div>
+                                        <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading5">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                            I don’t have any technical knowledge, but I want my own online subscription selling business to make money. Will it be helpful for me?
+                        </button>
+                        </h2>
+                        <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Definitely. What you need is to have your own website name we call it domain and hosting. We will install and set up everything for you. You just need to promote it to various businesses. Above we have a list of businesses to whom you can sell your subscription.
+                            </div>
+                        </div>
+                    </div>
+                                        <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading6">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+                            How do you provide support?
+                        </button>
+                        </h2>
+                        <div id="collapse6" class="accordion-collapse collapse" aria-labelledby="heading6" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                For our customers, we have a dedicated team of support engineers. Once you buy our product, you are enrolled in our database and can contact us at any time using the support form.
+                            </div>
+                        </div>
+                    </div>
+                                        <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading7">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
+                            Who takes care of the technical issues?
+                        </button>
+                        </h2>
+                        <div id="collapse7" class="accordion-collapse collapse" aria-labelledby="heading7" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                We LionCoders, take care of all sorts of technical issues that our clients require.
+                            </div>
+                        </div>
+                    </div>
+                                        <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading8">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
+                            I have some queries before purchasing. How can I contact?
+                        </button>
+                        </h2>
+                        <div id="collapse8" class="accordion-collapse collapse" aria-labelledby="heading8" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Use our contact form and describe your queries. Our support engineers will get back to you within 24 hours.
+                            </div>
+                        </div>
+                    </div>
+                                        <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading9">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse9" aria-expanded="false" aria-controls="collapse9">
+                            Do I need to purchase hosting?
+                        </button>
+                        </h2>
+                        <div id="collapse9" class="accordion-collapse collapse" aria-labelledby="heading9" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                No, you don't need to purchase hosting. You can install it to your existing hosting.
+                            </div>
+                        </div>
+                    </div>
+                                        <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading10">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse10" aria-expanded="false" aria-controls="collapse10">
+                            Do you offer free installation?
+                        </button>
+                        </h2>
+                        <div id="collapse10" class="accordion-collapse collapse" aria-labelledby="heading10" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                We do. Please contact us with your cPanel details after you purchase.
+                            </div>
+                        </div>
+                    </div>
+                                        <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading11">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse11" aria-expanded="false" aria-controls="collapse11">
+                            How can I charge my clients?
+                        </button>
+                        </h2>
+                        <div id="collapse11" class="accordion-collapse collapse" aria-labelledby="heading11" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                You can charge your clients as a monthly basis or yearly based subscription.
+                            </div>
+                        </div>
+                    </div>
+                                        <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading12">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse12" aria-expanded="false" aria-controls="collapse12">
+                            What are the available payment gateways?
+                        </button>
+                        </h2>
+                        <div id="collapse12" class="accordion-collapse collapse" aria-labelledby="heading12" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Stripe, PayPal, Razorpay, Paystack and Paydunya at the moment. Many more payment gateways will come in future.
+                            </div>
+                        </div>
+                    </div>
+                                        <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading13">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse13" aria-expanded="false" aria-controls="collapse13">
+                            What hardware does it support?
+                        </button>
+                        </h2>
+                        <div id="collapse13" class="accordion-collapse collapse" aria-labelledby="heading13" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Barcode Scanner, barcode label printer, Receipt or Thermal Printer (Printer with ESC/POS commands), digital weighing scale etc.
+                            </div>
+                        </div>
+                    </div>
+                                    </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="packages" class="grey-bg">
+        <div class="container">
+            <div class="col-md-6 offset-md-3 text-center mb-5">
+                <h2 class="heading">Pricing Plans</h2>
+
+                <ul class="nav nav-tabs pricing-tab" id="pricingTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link active" id="monthly-tab" data-bs-toggle="tab" data-bs-target="#monthly-tab-pane" type="button" role="tab" aria-controls="monthly-tab-pane" aria-selected="true">Monthly</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="yearly-tab" data-bs-toggle="tab" data-bs-target="#yearly-tab-pane" type="button" role="tab" aria-controls="yearly-tab-pane" aria-selected="false">Yearly <span class="badge">Save 20%</span>
+                      </button>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="d-none d-lg-flex d-xl-flex justify-content-between mb-5">
+                <div class="col" style="min-width: 300px;">
+                    <div class="pricing">
+                        <div id="sticky-wrapper" class="sticky-wrapper" style="height: 207px;"><div class="sticker">
+                            <div class="pricing-header">
+                                <span class="h3">Plan</span>
+                            </div>
+                            <div class="price">
+                                <span class="h4">Price</span>
+                            </div>
+                        </div></div>
+                        <div class="pricing-details">
+                            <p>Free Trial</p>
+                                                        <p>Product and Categories</p>
+                                                        <p>Purchase and Sale</p>
+                                                        <p>Sale Return</p>
+                                                        <p>Purchase Return</p>
+                                                        <p>Expense</p>
+                                                        <p>Income</p>
+                                                        <p>Stock Transfer</p>
+                                                        <p>Quotation</p>
+                                                        <p>Product Delivery</p>
+                                                        <p>Stock Count and Adjustment</p>
+                                                        <p>Report</p>
+                                                        <p>HRM</p>
+                                                        <p>Accounting</p>
+                                                        <p>Manufacturing</p>
+                                                        <p>Ecommerce</p>
+                                                        <p>Woocommerce</p>
+                                                        <p>Number of Warehouses</p>
+                            <p>Number of Products</p>
+                            <p>Number of Invoices</p>
+                            <p>Number of User Account</p>
+                            <p>Number of Employees</p>
+                        </div>
+                    </div>
+                </div>
+                                                <div class="col">
+                    <div class="pricing">
+                        <div id="sticky-wrapper" class="sticky-wrapper" style="height: 207px;"><div class="sticker">
+                            <div class="pricing-header">
+                                <span class="h3">Basic</span>
+                            </div>
+                            <div class="price">
+                                <div>
+                                    <span class="h4"><span class="currency-code">USD</span> <span class="package-price" data-monthly="19" data-yearly="200">19/month</span></span><br>
+                                                                        <button data-bs-toggle="modal" data-bs-target="#signupModal" data-free="1" data-package_id="1" class="button style2 signup-btn mt-2">Sign Up</button>
+                                                                    </div>
+                            </div>
+                        </div></div>
+                        <div class="pricing-details">
+                                                            <p>7 days</p>
+                            
+                                                                                                <p><i class="ti-check"></i></p>
+                                                                                                                                <p><i class="ti-check"></i></p>
+                                                                                                                                <p><i class="ti-check"></i></p>
+                                                                                                                                <p><i class="ti-check"></i></p>
+                                                                                                                                <p><i class="ti-close"></i></p>
+                                                                                                                                <p><i class="ti-close"></i></p>
+                                                                                                                                <p><i class="ti-close"></i></p>
+                                                                                                                                <p><i class="ti-close"></i></p>
+                                                                                                                                <p><i class="ti-close"></i></p>
+                                                                                                                                <p><i class="ti-close"></i></p>
+                                                                                                                                <p><i class="ti-check"></i></p>
+                                                                                                                                <p><i class="ti-close"></i></p>
+                                                                                                                                <p><i class="ti-close"></i></p>
+                                                                                                                                <p><i class="ti-close"></i></p>
+                                                                                                                                <p><i class="ti-close"></i></p>
+                                                                                                                                <p><i class="ti-close"></i></p>
+                                                            
+                                                            <p>1</p>
+                            
+                                                            <p>100</p>
+                            
+                                                            <p>10000</p>
+                            
+                                                            <p>1</p>
+                            
+                                                            <p>Unlimited</p>
+                                                    </div>
+                    </div>
+                </div>
+                                                <div class="col">
+                    <div class="pricing">
+                        <div id="sticky-wrapper" class="sticky-wrapper" style="height: 207px;"><div class="sticker">
+                            <div class="pricing-header">
+                                <span class="h3">Standard</span>
+                            </div>
+                            <div class="price">
+                                <div>
+                                    <span class="h4"><span class="currency-code">USD</span> <span class="package-price" data-monthly="39" data-yearly="380">39/month</span></span><br>
+                                                                        <button data-bs-toggle="modal" data-bs-target="#signupModal" data-free="1" data-package_id="2" class="button style2 signup-btn mt-2">Sign Up</button>
+                                                                    </div>
+                            </div>
+                        </div></div>
+                        <div class="pricing-details">
+                                                            <p>7 days</p>
+                            
+                                                                                                <p><i class="ti-check"></i></p>
+                                                                                                                                <p><i class="ti-check"></i></p>
+                                                                                                                                <p><i class="ti-check"></i></p>
+                                                                                                                                <p><i class="ti-check"></i></p>
+                                                                                                                                <p><i class="ti-check"></i></p>
+                                                                                                                                <p><i class="ti-close"></i></p>
+                                                                                                                                <p><i class="ti-check"></i></p>
+                                                                                                                                <p><i class="ti-check"></i></p>
+                                                                                                                                <p><i class="ti-check"></i></p>
+                                                                                                                                <p><i class="ti-check"></i></p>
+                                                                                                                                <p><i class="ti-check"></i></p>
+                                                                                                                                <p><i class="ti-check"></i></p>
+                                                                                                                                <p><i class="ti-close"></i></p>
+                                                                                                                                <p><i class="ti-close"></i></p>
+                                                                                                                                <p><i class="ti-close"></i></p>
+                                                                                                                                <p><i class="ti-check"></i></p>
+                                                            
+                                                            <p>Unlimited</p>
+                            
+                                                            <p>Unlimited</p>
+                            
+                                                            <p>Unlimited</p>
+                            
+                                                            <p>Unlimited</p>
+                            
+                                                            <p>Unlimited</p>
+                                                    </div>
+                    </div>
+                </div>
+                                                <div class="col">
+                    <div class="pricing">
+                        <div id="sticky-wrapper" class="sticky-wrapper" style="height: 207px;"><div class="sticker">
+                            <div class="pricing-header">
+                                <span class="h3">Premium</span>
+                            </div>
+                            <div class="price">
+                                <div>
+                                    <span class="h4"><span class="currency-code">USD</span> <span class="package-price" data-monthly="59" data-yearly="600">59/month</span></span><br>
+                                                                        <button data-bs-toggle="modal" data-bs-target="#signupModal" data-free="1" data-package_id="3" class="button style2 signup-btn mt-2">Sign Up</button>
+                                                                    </div>
+                            </div>
+                        </div></div>
+                        <div class="pricing-details">
+                                                            <p>7 days</p>
+                            
+                                                                                                <p><i class="ti-check"></i></p>
+                                                                                                                                <p><i class="ti-check"></i></p>
+                                                                                                                                <p><i class="ti-check"></i></p>
+                                                                                                                                <p><i class="ti-check"></i></p>
+                                                                                                                                <p><i class="ti-check"></i></p>
+                                                                                                                                <p><i class="ti-close"></i></p>
+                                                                                                                                <p><i class="ti-check"></i></p>
+                                                                                                                                <p><i class="ti-check"></i></p>
+                                                                                                                                <p><i class="ti-check"></i></p>
+                                                                                                                                <p><i class="ti-check"></i></p>
+                                                                                                                                <p><i class="ti-check"></i></p>
+                                                                                                                                <p><i class="ti-check"></i></p>
+                                                                                                                                <p><i class="ti-check"></i></p>
+                                                                                                                                <p><i class="ti-close"></i></p>
+                                                                                                                                <p><i class="ti-check"></i></p>
+                                                                                                                                <p><i class="ti-check"></i></p>
+                                                            
+                                                            <p>Unlimited</p>
+                            
+                                                            <p>Unlimited</p>
+                            
+                                                            <p>Unlimited</p>
+                            
+                                                            <p>Unlimited</p>
+                            
+                                                            <p>Unlimited</p>
+                                                    </div>
+                    </div>
+                </div>
+                            </div>
+
+                                    <div class="pricing-m d-block d-lg-none d-xl-none mb-5">
+                <div class="d-flex justify-content-between">
+                    <div class="pricing-header">
+                        <span class="h3">Basic</span>
+                    </div>
+                    <div class="price">
+                        <span class="h4"><span class="currency-code">USD</span> <span class="package-price" data-monthly="19" data-yearly="200">19/month</span></span>
+                    </div>
+                </div>
+                <div class="price">
+                                        <button data-bs-toggle="modal" data-bs-target="#signupModal" data-free="1" data-package_id="1" class="button style2 d-block w-100 signup-btn mt-2">Sign Up</button>
+                                    </div>
+                <div class="d-flex justify-content-between">
+                    <div class="pricing-details">
+                        <p>Free Trial</p>
+                                                <p>Product and Categories</p>
+                                                <p>Purchase and Sale</p>
+                                                <p>Sale Return</p>
+                                                <p>Purchase Return</p>
+                                                <p>Expense</p>
+                                                <p>Income</p>
+                                                <p>Stock Transfer</p>
+                                                <p>Quotation</p>
+                                                <p>Product Delivery</p>
+                                                <p>Stock Count and Adjustment</p>
+                                                <p>Report</p>
+                                                <p>HRM</p>
+                                                <p>Accounting</p>
+                                                <p>Manufacturing</p>
+                                                <p>Ecommerce</p>
+                                                <p>Woocommerce</p>
+                                                <p>Number of Warehouses</p>
+                        <p>Number of Products</p>
+                        <p>Number of Invoices</p>
+                        <p>Number of User Account</p>
+                        <p>Number of Employees</p>
+                    </div>
+                    <div class="pricing-details">
+                                                    <p>7 days</p>
+                        
+                                                                                    <p><i class="ti-check"></i></p>
+                                                                                                                <p><i class="ti-check"></i></p>
+                                                                                                                <p><i class="ti-check"></i></p>
+                                                                                                                <p><i class="ti-check"></i></p>
+                                                                                                                <p><i class="ti-close"></i></p>
+                                                                                                                <p><i class="ti-close"></i></p>
+                                                                                                                <p><i class="ti-close"></i></p>
+                                                                                                                <p><i class="ti-close"></i></p>
+                                                                                                                <p><i class="ti-close"></i></p>
+                                                                                                                <p><i class="ti-close"></i></p>
+                                                                                                                <p><i class="ti-check"></i></p>
+                                                                                                                <p><i class="ti-close"></i></p>
+                                                                                                                <p><i class="ti-close"></i></p>
+                                                                                                                <p><i class="ti-close"></i></p>
+                                                                                                                <p><i class="ti-close"></i></p>
+                                                                                                                <p><i class="ti-close"></i></p>
+                                                    
+                                                    <p>1</p>
+                        
+                                                    <p>100</p>
+                        
+                                                    <p>10000</p>
+                        
+                                                    <p>1</p>
+                        
+                                                    <p>Unlimited</p>
+                                            </div>
+                </div>
+            </div>
+                                    <div class="pricing-m d-block d-lg-none d-xl-none mb-5">
+                <div class="d-flex justify-content-between">
+                    <div class="pricing-header">
+                        <span class="h3">Standard</span>
+                    </div>
+                    <div class="price">
+                        <span class="h4"><span class="currency-code">USD</span> <span class="package-price" data-monthly="39" data-yearly="380">39/month</span></span>
+                    </div>
+                </div>
+                <div class="price">
+                                        <button data-bs-toggle="modal" data-bs-target="#signupModal" data-free="1" data-package_id="2" class="button style2 d-block w-100 signup-btn mt-2">Sign Up</button>
+                                    </div>
+                <div class="d-flex justify-content-between">
+                    <div class="pricing-details">
+                        <p>Free Trial</p>
+                                                <p>Product and Categories</p>
+                                                <p>Purchase and Sale</p>
+                                                <p>Sale Return</p>
+                                                <p>Purchase Return</p>
+                                                <p>Expense</p>
+                                                <p>Income</p>
+                                                <p>Stock Transfer</p>
+                                                <p>Quotation</p>
+                                                <p>Product Delivery</p>
+                                                <p>Stock Count and Adjustment</p>
+                                                <p>Report</p>
+                                                <p>HRM</p>
+                                                <p>Accounting</p>
+                                                <p>Manufacturing</p>
+                                                <p>Ecommerce</p>
+                                                <p>Woocommerce</p>
+                                                <p>Number of Warehouses</p>
+                        <p>Number of Products</p>
+                        <p>Number of Invoices</p>
+                        <p>Number of User Account</p>
+                        <p>Number of Employees</p>
+                    </div>
+                    <div class="pricing-details">
+                                                    <p>7 days</p>
+                        
+                                                                                    <p><i class="ti-check"></i></p>
+                                                                                                                <p><i class="ti-check"></i></p>
+                                                                                                                <p><i class="ti-check"></i></p>
+                                                                                                                <p><i class="ti-check"></i></p>
+                                                                                                                <p><i class="ti-check"></i></p>
+                                                                                                                <p><i class="ti-close"></i></p>
+                                                                                                                <p><i class="ti-check"></i></p>
+                                                                                                                <p><i class="ti-check"></i></p>
+                                                                                                                <p><i class="ti-check"></i></p>
+                                                                                                                <p><i class="ti-check"></i></p>
+                                                                                                                <p><i class="ti-check"></i></p>
+                                                                                                                <p><i class="ti-check"></i></p>
+                                                                                                                <p><i class="ti-close"></i></p>
+                                                                                                                <p><i class="ti-close"></i></p>
+                                                                                                                <p><i class="ti-close"></i></p>
+                                                                                                                <p><i class="ti-check"></i></p>
+                                                    
+                                                    <p>Unlimited</p>
+                        
+                                                    <p>Unlimited</p>
+                        
+                                                    <p>Unlimited</p>
+                        
+                                                    <p>Unlimited</p>
+                        
+                                                    <p>Unlimited</p>
+                                            </div>
+                </div>
+            </div>
+                                    <div class="pricing-m d-block d-lg-none d-xl-none mb-5">
+                <div class="d-flex justify-content-between">
+                    <div class="pricing-header">
+                        <span class="h3">Premium</span>
+                    </div>
+                    <div class="price">
+                        <span class="h4"><span class="currency-code">USD</span> <span class="package-price" data-monthly="59" data-yearly="600">59/month</span></span>
+                    </div>
+                </div>
+                <div class="price">
+                                        <button data-bs-toggle="modal" data-bs-target="#signupModal" data-free="1" data-package_id="3" class="button style2 d-block w-100 signup-btn mt-2">Sign Up</button>
+                                    </div>
+                <div class="d-flex justify-content-between">
+                    <div class="pricing-details">
+                        <p>Free Trial</p>
+                                                <p>Product and Categories</p>
+                                                <p>Purchase and Sale</p>
+                                                <p>Sale Return</p>
+                                                <p>Purchase Return</p>
+                                                <p>Expense</p>
+                                                <p>Income</p>
+                                                <p>Stock Transfer</p>
+                                                <p>Quotation</p>
+                                                <p>Product Delivery</p>
+                                                <p>Stock Count and Adjustment</p>
+                                                <p>Report</p>
+                                                <p>HRM</p>
+                                                <p>Accounting</p>
+                                                <p>Manufacturing</p>
+                                                <p>Ecommerce</p>
+                                                <p>Woocommerce</p>
+                                                <p>Number of Warehouses</p>
+                        <p>Number of Products</p>
+                        <p>Number of Invoices</p>
+                        <p>Number of User Account</p>
+                        <p>Number of Employees</p>
+                    </div>
+                    <div class="pricing-details">
+                                                    <p>7 days</p>
+                        
+                                                                                    <p><i class="ti-check"></i></p>
+                                                                                                                <p><i class="ti-check"></i></p>
+                                                                                                                <p><i class="ti-check"></i></p>
+                                                                                                                <p><i class="ti-check"></i></p>
+                                                                                                                <p><i class="ti-check"></i></p>
+                                                                                                                <p><i class="ti-close"></i></p>
+                                                                                                                <p><i class="ti-check"></i></p>
+                                                                                                                <p><i class="ti-check"></i></p>
+                                                                                                                <p><i class="ti-check"></i></p>
+                                                                                                                <p><i class="ti-check"></i></p>
+                                                                                                                <p><i class="ti-check"></i></p>
+                                                                                                                <p><i class="ti-check"></i></p>
+                                                                                                                <p><i class="ti-check"></i></p>
+                                                                                                                <p><i class="ti-close"></i></p>
+                                                                                                                <p><i class="ti-check"></i></p>
+                                                                                                                <p><i class="ti-check"></i></p>
+                                                    
+                                                    <p>Unlimited</p>
+                        
+                                                    <p>Unlimited</p>
+                        
+                                                    <p>Unlimited</p>
+                        
+                                                    <p>Unlimited</p>
+                        
+                                                    <p>Unlimited</p>
+                                            </div>
+                </div>
+            </div>
+                    </div>
+    </section>
+
+        <section id="blog">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 offset-md-3 text-center mb-5">
+                    <h2 class="heading">Blog</h2>
+                </div>
+                                <div class="col-md-4">
+                    <a href="https://pos.nidamk.com/blog/blow-your-mind">
+                        <div class="blog-item">
+                            <img src="./index_files/20230313040337.jpg" alt="Blow your mind!">
+                            <h4 class="mt-3">Blow your mind!</h4>
+                        </div>
+                    </a>
+                </div>
+                                <div class="col-md-4">
+                    <a href="https://pos.nidamk.com/blog/this-is-a-test-post-title-4">
+                        <div class="blog-item">
+                            <img src="./index_files/20230313114947.jpg" alt="This is test post title 4">
+                            <h4 class="mt-3">This is test post title 4</h4>
+                        </div>
+                    </a>
+                </div>
+                                <div class="col-md-4">
+                    <a href="https://pos.nidamk.com/blog/this-is-a-test-post-title-3">
+                        <div class="blog-item">
+                            <img src="./index_files/20230313114921.jpg" alt="This is test post title 3">
+                            <h4 class="mt-3">This is test post title 3</h4>
+                        </div>
+                    </a>
+                </div>
+                                <div class="col-md-6 offset-md-3 text-center mt-3 mb-5">
+                    <a href="https://pos.nidamk.com/blog" class="button style1">All Blogs</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    
+    <section id="contact" class="grey-bg">
+        <div class="container mb-5">
+            <div class="row">
+                <div class="col-md-5">
+                    <h3 class="heading mt-5">Contact Us</h3>
+                    <p class="lead contact-details"><i class="fa fa-phone"></i> +8801924-756759</p>
+                    <p class="lead contact-details"><i class="fa fa-envelope"></i> support@lion-coders.com</p>
+                    <hr>
+                    <h3 class="heading">Connect with Us</h3>
+                    <ul class="footer-social p-0 pt-3 pb-3">
+                                                <li>
+                            <a href="https://twitter.com/lioncoders"><i class="fa fa-twitter"></i></a>
+                        </li>
+                                                <li>
+                            <a href="https://youtube.com/lioncoders"><i class="fa fa-youtube"></i></a>
+                        </li>
+                                                <li>
+                            <a href="https://facebook.com/lioncoders"><i class="fa fa-facebook"></i></a>
+                        </li>
+                                            </ul>
+                </div>
+                <div class="col-md-6 offset-md-1">
+                    <form action="https://pos.nidamk.com/contact-form" method="POST" class="form contact-form">
+                        <input type="hidden" name="_token" value="IFBrwIOHTrkV6RwKGHrIncjutDOExhxJR4h3gaj3" autocomplete="off">                        <div class="row">
+                            <div class="col-md-6">
+                                <input class="form-control" type="text" name="name" placeholder="name..." required="">
+                            </div>
+                            <div class="col-md-6">
+                                <input class="form-control" type="text" name="phone" placeholder="contact number..." required="">
+                            </div>
+                            <div class="col-md-12">
+                                <input class="form-control" type="text" name="email" placeholder="email..." required="">
+                            </div>
+                            <div class="col-md-12">
+                                <textarea class="form-control" name="message" placeholder="your message" required=""></textarea>
+                            </div>
+
+                            <div class="col-12 mt-3">
+                                <p id="contact-waiting-msg" class="mb-3"></p>
+                                <input id="contact-submit-btn" type="submit" class="button style2 d-block w-100" value="submit">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer section Starts-->
+    <div class="footer-wrapper">
+        <div class="container">
+                        <div class="mt-5 mb-5 cta">
+                <h3 class="h1 mb-5">Start your software subscription business</h3>
+                <a class="button lg style2" href="https://lion-coders.com/software/NidamkPOS-saas-pos-inventory-saas-php-script">Get NidamkPOS SAAS</a>
+            </div>
+                        <hr>
+            <div class="d-flex justify-content-between mt-5">
+                <div class="footer-links">
+                                        <a href="https://pos.nidamk.com/page/terms-conditions">Terms &amp; Conditions</a>
+                                        <a href="https://pos.nidamk.com/page/privacy-policy">Privacy Policy</a>
+                                    </div>
+                <div class="footer-bottom">
+                    <p class="copyright">© NidamkPOS SaaS 2025. All rights reserved</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer section Ends-->
+
+    <!--Scroll to top starts-->
+    <a href="https://pos.nidamk.com/#" id="scrolltotop" style="display: none;"><i class="ti-arrow-up"></i></a>
+    <!--Scroll to top ends-->
+
+    <div class="body__overlay"></div>
+
+    <div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="signupModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-body" style="padding: 30px;">
+                    <div class="col-md-8 offset-md-2">
+                        <div class="text-center mb-3">
+                                                            <h2 class="heading">Customer SignUp</h2>
+                                <p class="lead mb-3">Experience the best POS system now!</p>
+                                                    </div>
+                        <form action="https://pos.nidamk.com/tenant-checkout" method="POST" class="form row customer-signup-form">
+                            <input type="hidden" name="_token" value="IFBrwIOHTrkV6RwKGHrIncjutDOExhxJR4h3gaj3" autocomplete="off">                            <div class="col-6">
+                                <input type="hidden" name="package_id" value="1">
+                                <input type="hidden" name="subscription_type" value="monthly">
+                                <input type="hidden" name="price" value="">
+                                <input class="form-control" type="text" name="company_name" placeholder="company name..." required="">
+                            </div>
+                            <div class="col-md-6">
+                                <input class="form-control" type="text" name="phone_number" placeholder="contact number..." required="">
+                            </div>
+                            <div class="col-md-12">
+                                <div class="input-group mt-3">
+                                    <input class="form-control mt-0" type="email" name="email" id="email" placeholder="Email..." required="">
+                                    <button type="button" id="send-otp-btn" class="btn btn-primary">Verify</button>
+                                </div>
+                                <small id="email-error" class="text-danger d-none"></small>
+                            </div>
+                            <!-- OTP Input Field -->
+                            <div class="col-md-12 d-none" id="otp-section">
+                                <div class="input-group mt-3">
+                                    <input class="form-control mt-0" type="text" name="otp" id="otp" placeholder="Enter OTP">
+                                    <button type="button" id="verify-otp-btn" class="btn btn-success">Verify OTP</button>
+                                </div>
+                                <small id="otp-error" class="text-danger d-none">Invalid OTP</small>
+                            </div>
+                            <div class="col-md-4">
+                                <input class="form-control" type="text" name="name" placeholder="username..." required="">
+                            </div>
+                            <div class="col-md-4">
+                                <input class="form-control" type="password" name="password" id="password" placeholder="password..." required="">
+                            </div>
+                            <div class="col-md-4">
+                                <input class="form-control" type="password" name="confirm_password" id="confirm_password" placeholder="Confirm Password..." required="">
+                                <small id="confirm-password-error" class="text-danger d-none">Passwords do not match!</small>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="input-group mt-3">
+                                    <input class="form-control mt-0" type="text" name="tenant" placeholder="subdomain..." aria-label="subdomain..." aria-describedby="basic-addon2" required="">
+                                <span class="input-group-text" id="basic-addon2">@pos.nidamk.com</span>
+                                </div>
+                            </div>
+                                                        <div class="col-md-12">
+                                <input class="form-control" type="text" name="custom_domain" placeholder="Set custom domain if you have any...">
+                                <p>You have to put 192.168.x.x as an A record on your domain control panel. It may take 24 hours to propagate. <a id="custom-domain-details" href="https://pos.nidamk.com/" style="color:red">Click here for details</a></p>
+                            </div>
+                                                        <div class="col-12 mt-3">
+                                <p id="waiting-msg" class="text-danger mb-3"></p>
+                                <input id="submit-btn" type="submit" class="button lg style2 d-block w-100" value="submit">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- supplier modal -->
+    <div id="custom-domain-details-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" class="modal fade text-left">
+        <div role="document" class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 id="exampleModalLabel" class="modal-title">Setting up Dedicated IP</h5>
+                    <button type="button" data-dismiss="modal" aria-label="Close" class="close"><span aria-hidden="true"><i class="dripicons-cross"></i></span></button>
+                </div>
+                <div class="modal-body">
+                    <img src="./index_files/setup_custom_domain.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end supplier modal -->
+
+
+    <!--Plugin js -->
+    <script src="./index_files/plugin.js.télécharger"></script>
+    <script src="./index_files/jquery.lazy.min.js.télécharger"></script>
+    <script src="./index_files/jquery-ui.min.js.télécharger"></script>
+    <!-- Sweetalert2 -->
+    <script src="./index_files/sweetalert2@11.js.télécharger"></script>
+    <!-- Main js -->
+    <script src="./index_files/main.js.télécharger"></script>
+    <!--Payment gateway js -->
+    <script src="./index_files/saved_resource"></script>
+    <script src="./index_files/razorpay.js.télécharger"></script>
+
+    <script>
+        let targetURL = "js/payment/razorpay/pay/confirm";
+        let cancelURL = "js/payment/razorpay/pay/cancel";
+        let redirectURL = "https://pos.nidamk.com/payment_success";
+        let redirectURLAfterCancel = "https://pos.nidamk.com/payment_cancel";
+
+        $("div.alert").delay(3000).slideUp(800);
+        var public_key = "pk_test_ITN7KOYiIsHSCQ0UMRcgaYUB";
+        var active_payment_gateway = "stripe,paypal,razorpay";
+        (function ($) {
+            "use strict";
+
+            $('.banner-slide-up').on('click', function () {
+                $(this).parent().slideUp();
+            });
+
+            $('[data-bs-toggle="tooltip"]').tooltip();
+
+            $(document).ready(function () {
+                $('#newsletter-modal').modal('toggle');
+            });
+
+            $(".signup-btn").on("click", function () {
+                $('input[name=package_id]').val($(this).data('package_id'));
+                if($('input[name=subscription_type]').val() == 'monthly') {
+                    $('input[name=price]').val($(this).parent().parent().find('.package-price').data('monthly'));
+                } else {
+                    $('input[name=price]').val($(this).parent().parent().find('.package-price').data('yearly'));
+                }
+                // $('html, body').animate({
+                //     scrollTop: $("#customer-signup").offset().top
+                // });
+            });
+
+            $("#yearly-tab").on('click', function(){
+                $('input[name=subscription_type]').val('yearly');
+
+                $(".package-price").each(function(){
+                    var plan = $(this).data('yearly')+'/year';
+                    $(this).html(plan);
+                })
+            })
+            $("#monthly-tab").on('click', function(){
+                $('input[name=subscription_type]').val('monthly');
+                $(".package-price").each(function(){
+                    var plan = $(this).data('monthly')+'/month';
+                    $(this).html(plan);
+                })
+            })
+
+            var verified = false;
+            // Send OTP
+            $('#send-otp-btn').click(function () {
+                var email = $('#email').val().trim();
+                var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+                if (!emailPattern.test(email)) {
+                    $('#email-error').removeClass('d-none').text('Please enter a valid email');
+                    return;
+                }
+
+                $('#email-error').addClass('d-none');
+                $(this).prop('disabled', true).text('Sending...');
+
+                $.ajax({
+                    url: "https://pos.nidamk.com/send-otp", // Route to send OTP
+                    type: 'POST',
+                    data: {
+                        email: email,
+                        _token: 'IFBrwIOHTrkV6RwKGHrIncjutDOExhxJR4h3gaj3'
+                    },
+                    success: function (response) {
+                        if (response.success) {
+                            $('#send-otp-btn').text('OTP Sent');
+                            $('#otp-section').removeClass('d-none'); // Show OTP input
+                        }
+                        else {
+                            $('#email-error').removeClass('d-none').text('Contact with Admin');
+                            $('#send-otp-btn').prop('disabled', false).text('Verify');
+                        }
+                    },
+                    error: function (xhr) {
+                        $('#email-error').removeClass('d-none').text('Contact with Admin');
+                        $('#send-otp-btn').prop('disabled', false).text('Verify');
+                    }
+                });
+            });
+
+            // Verify OTP
+            $('#verify-otp-btn').click(function () {
+                var otp = $('#otp').val();
+                var email = $('#email').val();
+
+                if (otp == '') {
+                    $('#otp-error').removeClass('d-none').text('Please enter OTP');
+                    return;
+                }
+
+                $('#otp-error').addClass('d-none');
+                $(this).prop('disabled', true).text('Verifying...');
+
+                $.ajax({
+                    url: "https://pos.nidamk.com/verify-otp", // Route to verify OTP
+                    type: 'POST',
+                    data: {
+                        email: email,
+                        otp: otp,
+                        _token: 'IFBrwIOHTrkV6RwKGHrIncjutDOExhxJR4h3gaj3'
+                    },
+                    success: function (response) {
+                        if (response.success) {
+                            $('#verify-otp-btn').text('Verified').prop('disabled', true);
+                            verified = true; // Set verification flag
+                        } else {
+                            $('#otp-error').removeClass('d-none').text('Invalid OTP');
+                            $('#verify-otp-btn').prop('disabled', false).text('Verify OTP');
+                        }
+                    }
+                });
+            });
+
+            $('#email').on('input', function() {
+                $('#email-error').addClass('d-none');
+            });
+
+            $('input[name=tenant]').on('input', function () {
+                var tenant = $(this).val();
+                var letters = /^[a-zA-Z0-9]+$/;
+                if(!letters.test(tenant)) {
+                    alert('Tenant name must be alpha numeric(a-z and 0-9)!');
+                    tenant = tenant.substring(0, tenant.length-1);
+                    $('input[name=tenant]').val(tenant);
+                }
+            });
+
+            $('#password, #confirm_password').on('input', function() {
+                $('#confirm-password-error').addClass('d-none');
+            });
+
+            $(document).on('submit', '.customer-signup-form', function(e) {
+                var password = $('#password').val();
+                var confirmPassword = $('#confirm_password').val();
+
+                if (!verified) {
+                    $('#email-error').removeClass('d-none').text('Please verify your email before submitting.');
+                    e.preventDefault();
+                }
+                else if (password !== confirmPassword) {
+                    $('#confirm-password-error').removeClass('d-none');
+                    e.preventDefault();
+                }
+                else {
+                    $('#submit-btn').prop('disabled', true);
+                    $('p#waiting-msg').text('Please wait. It will take some few seconds. System will redirect you to the tenant url automatically.');
+                }
+            });
+
+            $('a#custom-domain-details').click(function(e) {
+                e.preventDefault();
+                $('#custom-domain-details-modal').modal('show');
+            });
+
+            //Search field
+            $('#search_field').hide();
+
+            $(document).ready(function () {
+                $('#searchText').keyup(function () {
+                    var txt = $(this).val();
+                    if (txt != '') {
+                        $('#search_field').show();
+                        $('#result').html('<li>loading...</li>');
+                        $.ajax({
+                            url: "data_ajax_search",
+                            type: "GET",
+                            data: {
+                                search_txt: txt
+                            },
+                            success: function (data) {
+                                $('#search_field').show();
+                                $('#result').empty().html(data);
+                            }
+                        })
+                    } else if (txt.length === 0) {
+                        $('#search_field').hide();
+                    } else {
+                        $('#search_field').hide();
+                        $('#result').empty();
+                    }
+                })
+            });
+
+            $('#stripeContent').hide();
+
+            $(window).on('load', function () {
+
+                $('.lazy').Lazy();
+            });
+
+        })(jQuery);
+    </script>
+    <script>
+        function isNumberKey(evt) {
+            var charCode = (evt.which) ? evt.which : evt.keyCode
+            if (charCode > 31 && (charCode < 48 || charCode > 57))
+                return false;
+            return true;
+        }
+    </script>
+        <script async="" src="./index_files/js"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-D0S4KHQ1D6');
+    </script>
+    
+        <!-- Chat Snippet Start -->
+
+<!-- Chat Snippet End -->
+    
+    
+
+<div id="gigabrain-shadow-global" name="gigabrain"><template shadowrootmode="open"><style>.SearchController{position:fixed;bottom:12rem;right:0rem;font-family:var(--gb-font-family);color:var(--text-primary);z-index:50000;height:0;pointer-events:none}.SearchController .SideTab{margin-bottom:1rem}.SearchController .overlay{z-index:201;background-color:var(--bg-primary);opacity:.8;height:100%;width:100%;position:fixed;left:0;top:0;pointer-events:auto}.SearchController .SearchOverlay{z-index:202}@media only screen and (max-width: 700px){.SearchController{width:100%;bottom:0rem;height:unset}.SearchController .SearchPreview{width:calc(100% - 1rem);margin:auto;margin-bottom:1rem}.SearchController .overlay{opacity:0}}.SearchController a{text-decoration:none}</style><style>.Text{margin:0}.Text.text-primary{color:var(--text-primary)}.Text.text-secondary{color:var(--text-secondary)}.Text.success-text{color:var(--success-text)}.Text.error-text{color:var(--error-text)}.Text.primary-text{color:var(--primary-text)}.Text.secondary-text{color:var(--secondary-text)}.Text.text-placeholder{color:var(--text-placeholder)}.display.large{font-weight:510;font-size:4rem;line-height:4.5rem;letter-spacing:-0.01rem;font-family:var(--gb-font-family)}.display.medium{font-weight:510;font-size:3rem;line-height:3.5rem;letter-spacing:-0.004rem}.display.small{font-weight:510;font-size:2.25rem;line-height:2.75rem;letter-spacing:.002rem}.headline.large{font-weight:590;font-size:2rem;line-height:2.5rem;letter-spacing:.013rem}.headline.medium{font-weight:590;font-size:1.75rem;line-height:2.25rem;letter-spacing:.014rem}.headline.small{font-weight:590;font-size:1.5rem;line-height:2rem;letter-spacing:.003rem}.title.large{font-weight:510;font-size:1.25rem;line-height:1.75rem;letter-spacing:-0.023rem}.title.medium{font-weight:510;font-size:1rem;line-height:1.5rem;letter-spacing:-0.01rem}.title.small{font-weight:510;font-size:.875rem;line-height:1.25rem;letter-spacing:-0.011rem}.label.large{font-weight:510;font-size:.875rem;line-height:1.25rem;letter-spacing:-0.011rem}.label.medium{font-weight:510;font-size:.75rem;line-height:1rem}.label.small{font-weight:510;font-size:.6875rem;line-height:1rem;letter-spacing:.006em}.label-mono.large{font-weight:400;font-size:.875rem;line-height:1.25rem;font-family:var(--roboto-mono)}.label-mono.medium{font-weight:400;font-size:.75rem;line-height:1rem;font-family:var(--roboto-mono)}.label-mono.small{font-weight:400;font-size:.6875rem;line-height:1rem;font-family:var(--roboto-mono)}.body.large{font-weight:400;font-size:1rem;line-height:1.5rem;letter-spacing:-0.02rem}.body.medium{font-weight:400;font-size:.875rem;line-height:1.25rem;letter-spacing:-0.011em}.body.small{font-weight:400;font-size:.75rem;line-height:1rem}.body-strong.large{font-weight:700;font-size:1rem;line-height:1.25rem}.body-strong.medium{font-weight:700;font-size:.875rem;line-height:1.25rem;letter-spacing:-0.011em}.body-strong.small{font-weight:700;font-size:.75rem;line-height:1rem}</style><style>.Switch{position:relative;display:inline-block;height:1.375rem;width:2.5rem;cursor:pointer}.SwitchRail{width:2.5rem;height:1.375rem;background-color:var(--bg-ui-fill);border-radius:1.5rem;position:absolute}.SwitchCircle{width:1rem;height:1rem;background-color:var(--primary-ui-text);border-radius:1rem;position:absolute;top:.1875rem;left:.1875rem}@keyframes slide-left{from{transform:translateX(1rem)}to{transform:translateX(0rem)}}@keyframes slide-right{to{transform:translateX(1rem)}from{transform:translateX(0rem)}}.SwitchRailOn{background-color:var(--primary-ui)}.SwitchRailOff{background-color:var(--bg-ui-fill)}.SwitchCircleOn{transform:translateX(1.09375rem);animation:slide-right .2s ease-in-out}.SwitchCircleOff{transform:translateX(0rem);animation:slide-left .2s ease-in-out}</style><style>@import url(https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;400;700&family=Signika:wght@700&display=swap);</style><style>[name=gigabrain]{--highlight-text: #df71b3;--white: #F7F7F7;--black: #171717;--bg-primary: #171717;--bg-ui-transparent-hover: #252525;--bg-secondary: #0b0b0b;--bg-ui-fill: #252525;--bg-ui-fill-hover: #2f2f2f;--border-section: #2f2f2f;--border-ui: #373737;--ext-border-ui: #373737;--border-ui-hover: #f7f7f7;--border-active: #4094fa;--border-success: #5bd573;--border-error: #ff8077;--text-primary: #f7f7f7;--text-secondary: #a8a8a8;--text-placeholder: #878787;--text-disabled: #737373;--border-bottom-section: #2f2f2f;--border-ui: #373737;--primary-text: #e56cb4;--primary-text-hover: #c6318a;--primary-ui: #c6318a;--primary-ui-hover: #ac1078;--primary-ui-pressed: #ac1078;--primary-ui-text: #f7f7f7;--primary-bg-accent: #200214;--secondary-text: #4094fa;--secondary-text-hover: #007aff;--secondary-ui: #007aff;--secondary-ui-hover: #005eec;--secondary-ui-pressed: #005eec;--secondary-bg-accent: #081956;--success-text: #5bd573;--success-text-hover: #28b94d;--success-ui: #28b94d;--success-ui-hover: #1da03e;--success-ui-pressed: #1da03e;--success-bg-accent: #034012;--error-text: #ff8077;--error-text-hover: #ec3737;--error-ui: #ec3737;--error-ui-hover: #d71919;--error-ui-hover-pressed: #d71919;--error-bg-accent: #520202;--roboto-mono: "Roboto Mono", monospace;--gigabrain-hero-font-family: "Readex Pro", sans-serif;--gb-hero-font-family: "Readex Pro", sans-serif;--gb-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;--gigabrain-fonts: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;--gigabrain-color-0: rgb(20, 20, 20);--gigabrain-color-1: rgb(243, 100, 131);--gigabrain-color-2: rgba(243, 100, 131, 0.961);--gigabrain-color-3: rgb(255, 255, 255);--gigabrain-color-4: rgb(221, 221, 221);--gigabrain-color-5: rgb(51, 51, 51);--gigabrain-color-6: rgb(34, 34, 34);--gigabrain-color-7: rgb(20, 20, 20);--gigabrain-color-0-transparent: rgb(20, 20, 20, 0);--gigabrain-color-1-transparent: rgba(243, 100, 131, 0);--gigabrain-color-2-transparent: rgba(243, 100, 131, 0);--gigabrain-color-3-transparent: rgba(255, 255, 255, 0);--gigabrain-color-4-transparent: rgba(221, 221, 221, 0);--gigabrain-color-5-transparent: rgba(51, 51, 51, 0);--gigabrain-color-6-transparent: rgba(34, 34, 34, 0);--gigabrain-color-7-transparent: rgba(20, 20, 20, 0);--gigabrain-color-yes: rgb(64, 242, 255);--gigabrain-color-no: rgb(255, 64, 64);--gigabrain-color-highlight: rgb(71, 56, 59);--gigabrain-color-link: rgb(67, 124, 255);--gigabrain-background-color: var(--gigabrain-color-7);--gigabrain-main-color: var(--gigabrain-color-1);--gigabrain-header-height: 4rem;--gigabrain-footer-height: 4rem;--gigabrain-width: min(80vw, 1800px);--gigabrain-sidebar-ratio: 0.25}[name=gigabrain]{font-size:16px}</style><style>.OptionsContainer{display:flex;flex-direction:column;font-family:var(--gigabrain-fonts);gap:1.5rem}.OptionsContainer .OptionSection{display:flex;flex-direction:column;gap:.75rem}.OptionsContainer .OptionSection .OptionHeader{display:flex;flex-direction:column;gap:.25rem}.OptionsContainer .OptionsLogo{height:1.25rem;align-self:flex-start}.OptionsContainer .OptionsDoneButton{width:9rem;align-self:center}.OptionsContainer h1{font-size:1.5rem;font-weight:700;margin:0;padding:0}.OptionsContainerSubHeadline{margin-top:.5rem}.OptionTriggerWordLabel{font-size:1rem;font-weight:400}.OptionsContainer ul{padding:0;margin:0}.OptionsContainer ul li{padding:.5rem 0rem;list-style-type:none;display:flex;flex-direction:row;gap:1rem;align-items:center;justify-content:space-between}</style><style>.GButton{position:relative;margin:0;display:flex;flex-direction:row;border:none;box-sizing:border-box;justify-content:center;align-items:center;text-align:center;font-family:var(--gb-font-family)}.GButton.disabled:hover{cursor:not-allowed}.GButton:hover{cursor:pointer}.GButton.primary{color:var(--white);background-color:var(--primary-ui)}.GButton.secondary{color:var(--white);background-color:var(--secondary-ui)}.GButton.tertiary{color:var(--text-primary);background-color:var(--bg-ui-fill)}.GButton.ghost{color:var(--text-primary);background-color:rgba(0,0,0,0)}.GButton.primary:hover{color:var(--white);background-color:var(--primary-ui-hover)}.GButton.secondary:hover{color:var(--white);background-color:var(--secondary-ui-hover)}.GButton.tertiary:hover{color:var(--text-primary);background-color:var(--bg-ui-fill-hover)}.GButton.ghost:hover{color:var(--text-primary);background-color:var(--bg-ui-fill-hover)}.GButton.primary:active{color:var(--white);background-color:var(--primary-ui-pressed)}.GButton.secondary:active{color:var(--white);background-color:var(--secondary-ui-pressed)}.GButton.tertiary:active{color:var(--text-primary);background-color:var(--bg-ui-fill-hover)}.GButton.ghost:active{color:var(--text-primary);background-color:var(--bg-ui-fill-hover)}.GButton.primary.disabled{color:var(--text-disabled);background-color:var(--bg-ui-fill)}.GButton.secondary.disabled{color:var(--text-disabled);background-color:var(--bg-ui-fill)}.GButton.tertiary.disabled{color:var(--text-disabled);background-color:rgba(0,0,0,0);border:1px solid var(--border-ui)}.GButton.ghost.disabled{color:var(--text-disabled);background-color:rgba(0,0,0,0)}.GButton.large{height:3rem;font-weight:510;font-size:.875rem;line-height:1.25rem;letter-spacing:.01rem;padding:.875rem 1.5rem;border-radius:.625rem;gap:.5rem}.GButton.medium{height:2.5rem;font-weight:510;font-size:.875rem;line-height:1.25rem;letter-spacing:.01rem;padding:.625rem 1rem;border-radius:.625rem;gap:.5rem}.GButton.small{height:2rem;font-weight:400;font-size:.875rem;line-height:1.25rem;letter-spacing:.01rem;padding:.375rem 1rem;border-radius:.625rem;gap:.5rem}.GButton.tiny{height:1.5rem;font-weight:510;font-size:.75rem;line-height:1rem;letter-spacing:.01rem;padding:.25rem .5rem;border-radius:.625rem;gap:.5rem}.GButton .badge-text{position:absolute;display:flex;flex-direction:row;justify-content:center;align-items:center;background-color:var(--primary-ui);border-radius:.5rem;box-sizing:border-box;top:-0.25rem;right:-0.25rem;height:1rem;line-height:.5rem;font-size:.5rem;min-width:1rem;padding:.25rem}.GButton.medium .badge-text,.GButton.large .badge-text{border-radius:1rem;top:-0.5rem;right:-0.5rem;height:1.25rem;line-height:.75rem;font-size:.75rem;min-width:1.25rem}</style><style>.SearchOverlay{pointer-events:auto;position:fixed;top:0;right:0;height:100%;width:100%;max-width:min(100%,47rem);background-color:var(--bg-ui-fill);display:flex;flex-direction:column}.SearchOverlay .search-overlay-content{display:flex;flex-direction:column;max-height:100vh}.SearchOverlay .search-overlay-content .search-overlay-top{background-color:var(--bg-primary)}.SearchOverlay .SearchPreview{border-radius:0;width:100%}.GBTabs .tabs{display:flex;flex-direction:row;width:100%;box-sizing:border-box;padding:1.5rem 1.5rem 1rem 1.5rem;display:flex;align-items:center}.GBTabs .tabs .tab{list-style:none;cursor:pointer;position:relative;padding:.5rem 1.5rem}.GBTabs .tabs .tab .underline{position:absolute;bottom:-0.25rem;left:0;right:0;height:.25rem;background:var(--primary-ui)}.SearchSection{display:flex;flex-direction:column;gap:1.5rem;width:100%;box-sizing:border-box}.SearchSectionHeading{display:flex;flex-direction:row;align-items:center;justify-content:space-between}.SearchSectionHeading-title{display:flex;flex-direction:row;gap:.5rem;align-items:center}.SearchOverlay .search-overlay-main{display:flex;flex-direction:column;height:100%;width:100%;box-sizing:border-box;flex:1;overflow-y:scroll;overflow-x:hidden;z-index:1;padding:0rem 1.5rem}.SearchOverlay .search-overlay-main .SearchSection{padding-top:2rem;padding-bottom:1rem}.SearchResultContainer{border-radius:.5rem}@media only screen and (max-width: 700px){.SearchOverlay{max-width:100%;top:15vh;background-color:unset;flex-direction:row;height:calc(100% - 15vh)}.SearchOverlay .close-button{position:absolute;right:.75rem;top:-3.5rem;display:flex;padding:.75rem;justify-content:center;align-items:center;border-radius:6.25rem;border:.5px solid var(--text-disabled, #878787);background:rgba(55,55,55,.5);-webkit-backdrop-filter:blur(9px);backdrop-filter:blur(9px);cursor:pointer}.SearchOverlay .search-overlay-content{width:100%;border-radius:.625rem .625rem 0rem 0rem;border:.5px solid var(--text-disabled, #878787);border-bottom:none;background:rgba(55,55,55,.9);-webkit-backdrop-filter:blur(9px);backdrop-filter:blur(9px)}.SearchOverlay .search-overlay-content .search-overlay-top{background-color:unset}.SearchOverlay .search-overlay-content .search-overlay-top .top{display:flex;flex-direction:row;justify-content:space-between;padding:1rem}.SearchOverlay .search-overlay-content .search-overlay-top .top .branding{display:flex;flex-direction:row;gap:.25rem;align-items:center}.SearchOverlay .search-overlay-content .search-overlay-top .decoration{width:100%;height:.375rem;background:linear-gradient(90deg, #c6318a 0%, #007aff 100%)}.SearchOverlay .search-overlay-content .search-overlay-main{background-color:unset;padding:0rem 1rem}.SearchOverlay .search-overlay-content .search-overlay-main .SearchSection{padding-top:1.5rem;padding-bottom:1.5rem}}@media only screen and (max-width: 700px)and (prefers-color-scheme: light){.search-overlay-content,.close-button{background:rgba(55,55,55,.8) !important}}</style><style>.SearchPreview{pointer-events:auto;position:relative;display:flex;flex-direction:column;gap:1.5rem;box-sizing:border-box;width:31rem;background-color:var(--bg-primary);color:var(--text-primary);padding:1.5rem;border-radius:.625rem;overflow-x:hidden}.SearchPreview .summary{display:flex;flex-direction:column;gap:1.5rem}.SearchPreviewExpanded{bottom:8rem}.SearchPreview>.top{display:flex;flex-direction:row;justify-content:space-between;align-items:center}.SearchPreview>.top>.branding{display:flex;flex-direction:row;gap:.25rem;align-items:center}.SearchPreview .decoration{position:absolute;bottom:0;left:0;width:100%;height:.375rem;background:linear-gradient(90deg, #c6318a 0%, #007aff 100%)}</style><style>.PostByline{display:flex;flex-direction:row;flex-wrap:wrap;gap:.25rem;color:var(--text-secondary)}.PostByline a{color:var(--text-secondary);text-decoration:none}</style><style>.RedditSearchResult{display:flex;flex-direction:column;width:100%;box-sizing:border-box;background-color:var(--bg-primary);border-radius:.5rem}.SearchResultButton{margin:0 .5rem .5rem}.RedditSearchResult-top{display:flex;flex-direction:row;align-items:center;width:100%;padding:1rem;justify-content:space-between;box-sizing:border-box}.RedditSearchResult-topleft{display:flex;flex-direction:row;align-items:center;gap:.5rem}.RedditSearchResult-topright{display:flex;flex-direction:row;align-items:center;gap:.5rem}.RedditSearchResult-middle{display:flex;flex-direction:column;width:100%;box-sizing:border-box;padding:0rem 2.5rem 1.5rem 2.5rem;gap:1rem}.RedditSearchResult-middle-heading{display:flex;flex-direction:column;gap:0rem}.RedditSearchResult-bottom{display:flex;flex-direction:column;width:100%;box-sizing:border-box;gap:1rem}.RedditSearchResult-bottom.expanded,.RedditSearchResult-bottom.summaryOn{border-top:1px solid var(--border-section);padding:1rem 0rem 0rem 0rem}.RedditSearchResult-bottom>*{padding:0rem 1rem}.RedditSearchResult-sourceimg{height:1rem;width:1rem;border-radius:1rem}.RedditSearchResult-replycount,.RedditSearchResult-op{display:flex;flex-direction:row;align-items:center;gap:.5rem;width:100%;box-sizing:border-box}.RedditSearchResult-op-content{padding:1.5rem 2.5rem 1.5rem 2.5rem;border-top:1px solid var(--border-section);border-bottom:1px solid var(--border-section)}.RedditSearchResult-replies{display:flex;flex-direction:column;gap:1rem;box-sizing:border-box;width:100%;padding:1rem 3rem}.RedditSearchResult-replies.collapsed{display:none}@media only screen and (max-width: 700px){.RedditSearchResult-op-content{padding:1.5rem 1rem 1.5rem 1rem}.RedditSearchResult-middle{padding:0rem 1rem 1.5rem 1rem}.RedditSearchResult-replies{padding:1rem .5rem}}</style><style>.CollapsibleBlockContainer{max-width:100%;overflow-x:hidden;position:relative}.CollapsibleBlockCollapsed{position:relative}.CollapsibleBlockCollapsed::after{content:"";position:absolute;bottom:0;left:0;right:0;height:1rem;background:linear-gradient(transparent, var(--bg-primary))}.CollapsibleBlockCollapsed.overblue::after{content:"";position:absolute;bottom:0;left:0;right:0;height:6rem;background:linear-gradient(transparent, var(--bg-primary))}.CollapsibleBlockExpandButton{display:flex;flex-direction:row;cursor:pointer}.CollapsibleBlockExpandButton.minimal{position:relative;gap:.5rem;align-items:center;padding:1rem 0rem;cursor:pointer}.CollapsibleBlockExpandButton.overblue{position:absolute;bottom:1rem;left:2.5rem}</style><style>.PostImage{display:flex;flex-direction:row;align-items:center;margin-bottom:.5rem}.PostImage img{height:100%;max-width:100%}</style><style>.Markdown,.Markdown p,.Markdown a,.Markdown span,.Markdown em,.Markdown b{font-family:var(--gb-font-family);font-size:.875rem;font-style:normal;font-weight:400;line-height:1.25rem;letter-spacing:-0.00963rem;overflow-wrap:anywhere}.Markdown h1{font-weight:590;line-height:40px;font-size:2rem}.Markdown h2{font-weight:590;line-height:36px;font-size:1.75rem}.Markdown h3 h4{font-weight:590;line-height:32px;font-size:1.5rem}.Markdown ul,.Markdown ol{color:var(--text-primary);margin-bottom:1rem}.Markdown a{color:var(--secondary-text)}.Markdown b{font-weight:500}.Markdown blockquote{border-left:.25rem solid var(--border-ui);margin:0;padding:.5rem .5rem .5rem 1rem;color:var(--text-secondary);font-style:italic}.Markdown em{font-style:italic}.Markdown span{font-size:inherit}.Markdown :first-child:not(.react-tooltip){margin-top:0;padding-top:0}.Markdown :last-child:not(.react-tooltip){margin-bottom:0;padding-bottom:0}.gb-anno-snippet{color:var(--primary-text);background:none;background-color:var(--primary-bg-accent) !important;font-weight:400}.gb-anno-products,.gb-anno-brands,.gb-anno-locations,.gb-anno-people,.gb-anno-specs,.gb-anno-other{background:linear-gradient(to left, var(--text-primary) 0%, var(--text-primary) 100%);background-position:0 100%;background-size:100% 1px;background-repeat:repeat-x;position:relative}.gb-anno-products:hover,.gb-anno-brands:hover,.gb-anno-locations:hover{cursor:pointer;color:var(--text-primary);background:linear-gradient(to left, var(--text-primary) 0%, var(--text-primary) 100%);background-position:0 100%;background-size:100% 1px;background-repeat:repeat-x;position:relative}.gb-annotation::after{width:1rem;height:1rem;font-size:.8rem;border-radius:1rem;position:absolute;right:-0.5rem;top:calc(-0.5rem - 0px);display:flex;justify-content:center;align-items:center;z-index:2}</style><style>.PostSummary{padding:0rem}.PostSummaryTitle{font-weight:700;font-size:1rem}.PostSummary .gb-annotation{color:var(--text-primary)}.PostSummary .gb-anno-products,.PostSummary .gb-anno-brands,.PostSummary .gb-anno-locations,.PostSummary .gb-anno-people,.PostSummary .gb-anno-specs,.PostSummary .gb-anno-other{background:linear-gradient(to left, var(--text-primary) 0%, var(--text-primary) 100%);background-position:0 100%;background-size:100% 1px;background-repeat:repeat-x;position:relative;color:var(--text-primary)}</style><style>@keyframes spinner{to{transform:rotate(360deg)}}.spinner:before{content:"";box-sizing:border-box;position:absolute;top:0;bottom:0;left:0;right:0;width:100%;height:100%;border-radius:50%;border:.25rem solid #eb529e;border-top-color:#a452eb;border-right-color:#5283eb;border-bottom-color:#52cceb;animation:spinner .6s linear infinite}.Spinner{position:relative;height:1.5rem;width:1.5rem}.SpinnerFullscreen{position:relative;width:50vw;height:50vw}</style><style></style><style>.AnnotationTooltip{border-radius:1.5rem;background-color:var(--bg-ui-fill);color:var(--text-primary);transition:none;opacity:1;border:1px solid var(--border-ui);display:flex;flex-direction:row;align-items:center;justify-content:center;box-sizing:border-box;padding:.5rem 1rem;text-align:center}.AnnotationTooltipArrow{border-right:1px solid var(--border-ui);border-bottom:1px solid var(--border-ui);height:.7rem;width:.7rem;background-color:var(--bg-ui-fill);position:absolute;bottom:-0.35rem;z-index:1;left:0;right:0;margin:auto;transform:rotate(45deg);box-sizing:border-box}.AnnotationTooltip:hover{background-color:var(--bg-ui-fill-hover)}.AnnotationTooltip:hover>.AnnotationTooltipArrow{border-right:1px solid var(--border-ui);border-bottom:1px solid var(--border-ui);background-color:var(--bg-ui-fill-hover)}.AnnotationTooltipBody{display:flex;flex-direction:row;color:#fff;flex:1;justify-content:center;gap:.5rem;z-index:2}</style><style>.Bubble{display:flex;height:2rem;width:2rem;min-width:2rem;border-radius:2rem;background-size:cover;align-items:center;justify-content:center;font-size:1rem;line-height:2rem;color:var(--text-primary);font-weight:400;position:relative}.BubbleDecoration{position:absolute;display:flex;top:-0.325rem;right:-0.325rem;width:1rem;height:1rem;line-height:1rem;font-size:1rem;justify-content:center;align-items:center;border-radius:1rem}.BubbleDecoration>*{overflow:hidden}.BubbleTiny{height:1rem;width:1rem;min-width:1rem;border-radius:1rem;font-size:.5rem;line-height:1rem}.BubbleSmall{height:1.5rem;width:1.5rem;min-width:1.5rem;border-radius:1.5rem;font-size:.75rem;line-height:1.5rem}.BubbleMedium{height:2rem;width:2rem;min-width:2rem;border-radius:2rem;font-size:1rem;line-height:2rem}.BubbleLarge{height:4rem;width:4em;min-width:4rem;max-width:4rem;border-radius:4rem;font-size:2rem;line-height:4rem}</style><style>.PostStatline{display:flex;flex-direction:row;align-items:center;gap:.75rem}.PostUpvotes{display:flex;flex-direction:row;align-items:center;gap:.25rem}.PostUpvotesIcon{display:flex;flex-direction:row;align-items:center;color:var(--success-text)}.PostNumReplies{display:flex;flex-direction:row;align-items:center;gap:.25rem}</style><style>.PostActions{display:flex;flex-direction:row;align-items:center;gap:.5rem;flex-wrap:wrap}.PostActions a{text-decoration:none}.PostThumbsUpButton.active{background-color:var(--bg-ui-fill-hover);color:var(--primary-text)}.PostThumbsDownButton.active{background-color:var(--bg-ui-fill-hover);color:var(--primary-text)}@media only screen and (max-width: 700px){.PostThumbsUpButton>*:last-child{display:none}.PostThumbsDownButton>*:last-child{display:none}.PostReportButton>*:last-child{display:none}}</style><style>.Threads{display:flex;flex-direction:column;align-items:flex-end}</style><style>.RedditComment{display:flex;flex-direction:column;gap:.5rem;padding:.5rem;width:100%;box-sizing:border-box}.RedditCommentExpandButton{color:var(--text-secondary)}.RedditCommentExpandButton:hover{color:var(--bg-ui-fill-hover)}.RedditCommentBodyRest{display:flex;flex-direction:row;gap:0rem}.RedditCommentVerticalBarContainer{display:flex;flex-direction:column;justify-content:center;align-items:center;cursor:pointer;padding:0rem .6875rem}.RedditCommentVerticalBar{width:.125rem;height:100%;border-radius:.125rem;background-color:var(--bg-ui-fill)}.RedditCommentVerticalBarContainer:hover .RedditCommentVerticalBar{background-color:var(--bg-ui-fill-hover)}.RedditCommentBodyContainer{display:flex;flex-direction:column;gap:.5rem;width:calc(100% - 1.5rem)}.RedditCommentBody{display:flex;flex-direction:column;box-sizing:border-box}.RedditCommentStatActions{display:flex;flex-direction:row;gap:.75rem;align-items:center}.RedditComment>.CommentStatline{display:flex;flex-direction:row;margin-left:2rem}.RedditCommentReplies{display:flex;flex-direction:column}.RedditComment.highlighted{border:1px solid var(--primary-ui);background:linear-gradient(to left, transparent, var(--primary-bg-accent));border-radius:.625rem}</style><style>.CommentActions{display:flex;flex-direction:row;align-items:center;gap:.5rem;flex-wrap:wrap}.CommentActions.minimal{gap:.5rem}.CommentActions.minimal .CommentThumbsUpButton,.CommentActions.minimal .CommentThumbsDownButton{color:var(--text-secondary);width:1.875rem}.CommentThumbsUpButton:hover,.CommentThumbsDownButton:hover{color:var(--text-primary)}.CommentActions.minimal .CommentThumbsUpButton.active{background-color:rgba(0,0,0,0)}.CommentActions.minimal .CommentThumbsDownButton.active{background-color:rgba(0,0,0,0)}.CommentActions.minimal .CommentThumbsUpButton{padding:0}.CommentActions.minimal .CommentThumbsDownButton{padding:0}.CommentThumbsUpButton.active{background-color:var(--bg-ui-fill-hover);color:var(--primary-text)}.CommentThumbsDownButton.active{background-color:var(--bg-ui-fill-hover);color:var(--primary-text)}@media only screen and (max-width: 700px){.CommentThumbsUpButton>.Text{display:none}.CommentThumbsDownButton>.Text{display:none}}</style><style>.CommentByLine{display:flex;flex-direction:row;gap:.5rem;align-items:center;flex-wrap:wrap}.CommentByLine a{color:var(--text-primary);text-decoration:none;font-size:.75rem;font-style:normal;font-weight:510;line-height:1rem}</style><style>.CommentByLine{display:flex;flex-direction:row;gap:.5rem;align-items:center}</style><style>.PostLink{display:flex;flex-direction:row;align-items:center;color:var(--secondary-text);gap:.5rem}.PostLink:hover{cursor:pointer;text-decoration:underline}</style><style>.ResultsSummary{display:flex;flex-direction:column;gap:1rem}.ResultsSummaryContainer{display:flex;flex-direction:column;background-color:var(--bg-primary);border-radius:.625rem;padding:1rem}.ResultsSummaryHeading{display:flex;flex-direction:row;align-items:center}.ResultsSummaryLogo{height:1.25rem;width:1.25rem}.ResultsSummaryTagline{font-family:var(--roboto-mono);color:var(--text-secondary);text-transform:uppercase;font-size:.75rem;margin-left:.5rem}.ResultsSummaryContent{min-height:16.5rem}.ResultsSummaryText{font-size:.875rem;line-height:1.25rem;padding-left:1.75rem;padding-right:1.75rem;max-width:min(100%,42rem)}.ResultsSummaryText a{color:var(--secondary-text)}.ResultsSummaryText a:hover{text-decoration:underline}.ResultsSummary .gb-annotation{color:var(--text-primary)}.ResultsSummary .gb-anno-products,.ResultsSummary .gb-anno-brands,.ResultsSummary .gb-anno-locations,.ResultsSummary .gb-anno-people,.ResultsSummary .gb-anno-specs,.ResultsSummary .gb-anno-other{background:linear-gradient(to left, var(--text-primary) 0%, var(--text-primary) 100%);background-position:0 100%;background-size:100% 1px;background-repeat:repeat-x;position:relative;color:var(--text-primary)}.ResultsSummary>.generate-button{margin:auto}.ResultsSummary .ResultsSummaryText{margin-bottom:2rem}</style><style>.ResultsSummaryLoadingPremessage{display:flex;flex-direction:row}.ResultsSummaryLoadingPremessage>p{margin-bottom:0}.ResultsSummaryLoadingPremessage>.Lottie{height:.7rem;align-self:flex-end;margin-left:.5rem}.ResultsSummaryLoadingMessages{font-family:var(--roboto-mono);color:var(--text-secondary);font-size:.75rem;padding-left:1.75rem;padding-right:1.75rem}.ResultsSummaryLoadingMessages>p{margin-block-start:.5em;margin-block-end:.5em}@media only screen and (max-width: 700px){.ResultsSummaryLoadingMessages{padding-left:0rem;padding-right:0rem}}</style><style>.SearchSources{display:grid;grid-template-columns:repeat(4, 1fr);width:100%;box-sizing:border-box;gap:1rem}.SearchPreview .SearchSources{grid-template-columns:repeat(3, 1fr)}.SearchSources>.SearchSource{display:flex;flex-direction:column;justify-content:space-between;box-sizing:border-box;padding:.5rem;width:100%;height:6rem;gap:1rem;background-color:var(--bg-primary);border-radius:.3125rem;overflow:hidden;text-decoration:none;cursor:pointer}.SearchPreview .SearchSources>.SearchSource{background-color:var(--bg-ui-fill)}.SearchSources>.SearchSource:hover{background-color:var(--bg-ui-fill-hover)}.SearchSource .source-title{box-sizing:border-box;padding-right:1rem;width:100%;max-height:2rem;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis;white-space:normal}.SearchSource .source-bottom{display:flex;flex-direction:row;gap:.5rem;align-items:center;width:100%;box-sizing:border-box;overflow:hidden}.SearchSource .source-bottom img{min-width:20px;min-height:20px}@media only screen and (max-width: 700px){.SearchSources{grid-template-columns:repeat(2, 1fr)}.SearchSources .SearchSource{background-color:var(--bg-ui-fill)}}</style><div class="SearchController"></div></template></div><iframe name="__privateStripeMetricsController6640" frameborder="0" allowtransparency="true" scrolling="no" role="presentation" allow="payment *" src="./index_files/m-outer-3437aaddcdf6922d623e172c2d6f9278.html" aria-hidden="true" tabindex="-1" style="border: none !important; margin: 0px !important; padding: 0px !important; width: 1px !important; min-width: 100% !important; overflow: hidden !important; display: block !important; visibility: hidden !important; position: fixed !important; height: 1px !important; pointer-events: none !important; user-select: none !important;"></iframe></body></html>
